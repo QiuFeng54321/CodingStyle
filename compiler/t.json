@@ -1,0 +1,88 @@
+{
+    "statements": [
+        {
+            "variable": {
+                "token_type": 2,
+                "content": "a"
+            }
+        },
+        {
+            "variable": {
+                "token_type": 2,
+                "content": "b"
+            },
+            "expression": {
+                "left": {
+                    "left": {
+                        "left": {
+                            "identifier": {
+                                "token_type": 2,
+                                "content": "a"
+                            }
+                        },
+                        "operation": {
+                            "token_type": 3,
+                            "content": "+"
+                        },
+                        "right": {
+                            "integer": {
+                                "token_type": 1,
+                                "content": "3"
+                            }
+                        }
+                    },
+                    "operation": {
+                        "token_type": 5,
+                        "content": "*"
+                    },
+                    "right": {
+                        "integer": {
+                            "token_type": 1,
+                            "content": "2"
+                        }
+                    }
+                },
+                "operation": {
+                    "token_type": 4,
+                    "content": "-"
+                },
+                "right": {
+                    "left": {
+                        "integer": {
+                            "token_type": 1,
+                            "content": "3"
+                        }
+                    },
+                    "operation": {
+                        "token_type": 6,
+                        "content": "/"
+                    },
+                    "right": {
+                        "left": {
+                            "integer": {
+                                "token_type": 1,
+                                "content": "9"
+                            }
+                        },
+                        "operation": {
+                            "token_type": 4,
+                            "content": "-"
+                        },
+                        "right": {
+                            "integer": {
+                                "token_type": 1,
+                                "content": "2"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "variable": {
+                "token_type": 2,
+                "content": "b"
+            }
+        }
+    ]
+}
